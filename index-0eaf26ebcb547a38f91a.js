@@ -5658,7 +5658,7 @@
                         "padding-top": "10px",
                       },
                     },
-                    [_vm._v("@ Copyright 2021-2023")]
+                    [_vm._v("@ Copyright 2024")]
                   ),
                   _vm._v(" "),
                   _c(
@@ -5747,16 +5747,16 @@
                 },
               },
               [
-                _vm._v("Links:\n        "),
+                _vm._v("        "),
                 _c(
                   "a",
                   {
                     attrs: {
                       target: "_blank",
-                      href: "https://converterfactory.com",
+                      href: "/",
                     },
                   },
-                  [_c("b", [_vm._v("ConverterFactory")])]
+                  [_c("b", [_vm._v("DMCA")])]
                 ),
               ]
             );
