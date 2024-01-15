@@ -142,10 +142,11 @@ a[data-v-78fb99d2]:hover {
   min-height: 40px;
   /*background: #fafafa;*/
   border-radius: 10px;
-  display: flex; /*å®žçŽ°åž‚ç›´å±…ä¸­*/
   align-items: center; /*å®žçŽ°æ°´å¹³å±…ä¸­*/
   justify-content: center;
   text-align: justify;
+  display: none;
+  
 }
 
 .recommendWheels[data-v-552a2441] {
@@ -173,6 +174,7 @@ a[data-v-78fb99d2]:hover {
 
 .faq[data-v-231ee583] {
   padding: 20px 40px;
+  display: none;
 }
 .line-padding[data-v-231ee583] {
   padding-top: 20px;
@@ -188,6 +190,7 @@ a[data-v-78fb99d2]:hover {
 @media screen and (max-width: 480px) {
   .faq[data-v-231ee583] {
     padding: 15px;
+    display: none;
   }
 }
 
@@ -197,6 +200,7 @@ a[data-v-78fb99d2]:hover {
   font-size: xx-large;
   font-weight: bold;
   font-family: Helvetica, serif;
+  display: none;
 }
 .wheelTitle[data-v-d0bf3074] {
   font-size: x-large;
@@ -206,6 +210,7 @@ a[data-v-78fb99d2]:hover {
 .mySection[data-v-d0bf3074] {
   padding-left: 40px;
   padding-right: 40px;
+  display: none;
 }
 @media screen and (max-width: 480px) {
   .mySection[data-v-d0bf3074] {
@@ -221,6 +226,7 @@ a[data-v-78fb99d2]:hover {
   padding: 40px;
   border-radius: 10px;
   margin: 50px;
+  display: none;
 }
 .spinLabel[data-v-342a570e] {
   font-size: 26px;
@@ -237,9 +243,11 @@ a[data-v-78fb99d2]:hover {
   .wheelContent[data-v-342a570e] {
     padding: 15px;
     margin: 20px 1px;
+    display: none;
   }
   p[data-v-342a570e] {
     line-height: 150%;
+    display: none;
   }
   div[data-v-342a570e] {
     line-height: 150%;
