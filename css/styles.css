@@ -8,6 +8,10 @@
     background-color: red;   
 }
 
-.navbar-item{
-    background-color: red;
+.navbar-end:hover{
+    background-color: black;
+}
+
+.navbar-brand{
+    background-color: black;
 }
