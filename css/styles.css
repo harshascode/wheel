@@ -5,6 +5,9 @@
 }
 
 .navbar.is-info{
+    background-color: red;   
+}
+
+.navbar-item{
     background-color: red;
-    
 }
