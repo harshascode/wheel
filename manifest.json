@@ -1,0 +1,16 @@
+{
+  "short_name": "Wheel",
+  "name": "Wheel Spinner",
+  "icons": [
+    {
+      "src": "images/hat-with-names.png",
+      "sizes": "245x220",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "https://XXXX/?utm_source=web-manifest&utm_medium=pwa&utm_campaign=pwa",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#FFFFFF",
+  "theme_color": "#007BFF"
+}
