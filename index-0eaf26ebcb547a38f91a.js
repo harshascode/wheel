@@ -11362,144 +11362,11 @@ limitations under the License.
         ];
         var locales = [
           {
-            name: "id",
-            humanName: "Bahasa",
-            googleName: "id_ID",
-            twitterName: "id_ID",
-            file: "id-ID.json",
-          },
-          {
-            name: "th",
-            humanName: "ภาษาไทย",
-            googleName: "th_TH",
-            twitterName: "th_TH",
-            file: "th-TH.json",
-          },
-          {
             name: "en",
             humanName: "English",
             googleName: "en_US",
             twitterName: "en",
             file: "en-US.json",
-          },
-          {
-            name: "pl",
-            humanName: "Polski",
-            googleName: "pl_PL",
-            twitterName: "pl_PL",
-            file: "pl-PL.json",
-          },
-          {
-            name: "de",
-            humanName: "Deutsch",
-            googleName: "de_DE",
-            twitterName: "de_DE",
-            file: "de-DE.json",
-          },
-          {
-            name: "fr",
-            humanName: "Français",
-            googleName: "fr_FR",
-            twitterName: "fr",
-            file: "fr-FR.json",
-          },
-          {
-            name: "ph",
-            humanName: "Pilipino",
-            googleName: "ph_PH",
-            twitterName: "ph_PH",
-            file: "ph-PH.json",
-          },
-          {
-            name: "tw",
-            humanName: "繁體中文",
-            googleName: "zh_rTW",
-            twitterName: "zh_rTW",
-            file: "zh-TW.json",
-          },
-          {
-            name: "kr",
-            humanName: "한국어",
-            googleName: "ko_KR",
-            twitterName: "ko_KR",
-            file: "ko-KR.json",
-          },
-          {
-            name: "jp",
-            humanName: "日本語",
-            googleName: "ja_JP",
-            twitterName: "ja_JP",
-            file: "ja-JP.json",
-          },
-          {
-            name: "ru",
-            humanName: "Pусский",
-            googleName: "ru_RU",
-            twitterName: "ru_RU",
-            file: "ru-RU.json",
-          },
-          {
-            name: "pt",
-            humanName: "Português",
-            googleName: "pt_PT",
-            twitterName: "pt_PT",
-            file: "pt-PT.json",
-          },
-          {
-            name: "es",
-            humanName: "Español",
-            googleName: "es_ES",
-            twitterName: "es_ES",
-            file: "es-ES.json",
-          },
-          {
-            name: "my",
-            humanName: "Malay",
-            googleName: "my_MY",
-            twitterName: "my_MY",
-            file: "ms-MY.json",
-          },
-          {
-            name: "it",
-            humanName: "Italiano",
-            googleName: "it_IT",
-            twitterName: "it_IT",
-            file: "it-IT.json",
-          },
-          {
-            name: "tr",
-            humanName: "Türkçe",
-            googleName: "tr_TR",
-            twitterName: "tr_TR",
-            file: "tr-TR.json",
-          },
-          {
-            name: "in",
-            humanName: "हिंदी",
-            googleName: "in_IN",
-            twitterName: "in_IN",
-            file: "in-IN.json",
-          },
-          {
-            name: "vn",
-            humanName: "Tiếng Việt",
-            googleName: "vn_VN",
-            twitterName: "vn_VN",
-            file: "vn-VN.json",
-          },
-          {
-            name: "nl",
-            humanName: "Nederlands",
-            googleName: "nl_NL",
-            twitterName: "nl_NL",
-            file: "nl-NL.json",
-          },
-          {
-            name: "ua",
-            humanName: "Українська",
-            googleName: "ua_UA",
-            twitterName: "ua_UA",
-            file: "ua-UA.json",
           },
         ];
         function getLocale(hostName, pathName) {
@@ -16171,65 +16038,8 @@ limitations under the License.
           messages: {
             // top10：印尼、泰国、美国、波兰、德国、法国、菲律宾、英国、台湾、加拿大
             // 印尼语、泰语、英语、波兰语、德语、法语、中文繁体
-            id: __webpack_require__(
-              /*! ./locales/id-ID.json */ "static/locales/id-ID.json"
-            ),
-            th: __webpack_require__(
-              /*! ./locales/th-TH.json */ "static/locales/th-TH.json"
-            ),
             en: __webpack_require__(
               /*! ./locales/en-US.json */ "static/locales/en-US.json"
-            ),
-            pl: __webpack_require__(
-              /*! ./locales/pl-PL.json */ "static/locales/pl-PL.json"
-            ),
-            de: __webpack_require__(
-              /*! ./locales/de-DE.json */ "static/locales/de-DE.json"
-            ),
-            fr: __webpack_require__(
-              /*! ./locales/fr-FR.json */ "static/locales/fr-FR.json"
-            ),
-            ph: __webpack_require__(
-              /*! ./locales/ph-PH.json */ "static/locales/ph-PH.json"
-            ),
-            tw: __webpack_require__(
-              /*! ./locales/zh-TW.json */ "static/locales/zh-TW.json"
-            ),
-            kr: __webpack_require__(
-              /*! ./locales/ko-KR.json */ "static/locales/ko-KR.json"
-            ),
-            jp: __webpack_require__(
-              /*! ./locales/ja-JP.json */ "static/locales/ja-JP.json"
-            ),
-            ru: __webpack_require__(
-              /*! ./locales/ru-RU.json */ "static/locales/ru-RU.json"
-            ),
-            pt: __webpack_require__(
-              /*! ./locales/pt-PT.json */ "static/locales/pt-PT.json"
-            ),
-            es: __webpack_require__(
-              /*! ./locales/es-ES.json */ "static/locales/es-ES.json"
-            ),
-            my: __webpack_require__(
-              /*! ./locales/ms-MY.json */ "static/locales/ms-MY.json"
-            ),
-            it: __webpack_require__(
-              /*! ./locales/it-IT.json */ "static/locales/it-IT.json"
-            ),
-            tr: __webpack_require__(
-              /*! ./locales/tr-TR.json */ "static/locales/tr-TR.json"
-            ),
-            in: __webpack_require__(
-              /*! ./locales/in-IN.json */ "static/locales/in-IN.json"
-            ),
-            vn: __webpack_require__(
-              /*! ./locales/vn-VN.json */ "static/locales/vn-VN.json"
-            ),
-            nl: __webpack_require__(
-              /*! ./locales/nl-NL.json */ "static/locales/nl-NL.json"
-            ),
-            ua: __webpack_require__(
-              /*! ./locales/ua-UA.json */ "static/locales/ua-UA.json"
             ),
           },
         });
@@ -16375,43 +16185,6 @@ limitations under the License.
           "./de-DE": ["static/locales/de-DE.json", "locale-de-DE"],
           "de-DE.json": ["static/locales/de-DE.json", "locale-de-DE"],
           "./en-US": ["static/locales/en-US.json", "locale-en-US"],
-          "en-US.json": ["static/locales/en-US.json", "locale-en-US"],
-          "./es-ES": ["static/locales/es-ES.json", "locale-es-ES"],
-          "es-ES.json": ["static/locales/es-ES.json", "locale-es-ES"],
-          "./fr-FR": ["static/locales/fr-FR.json", "locale-fr-FR"],
-          "fr-FR.json": ["static/locales/fr-FR.json", "locale-fr-FR"],
-          "./id-ID": ["static/locales/id-ID.json", "locale-id-ID"],
-          "id-ID.json": ["static/locales/id-ID.json", "locale-id-ID"],
-          "./in-IN": ["static/locales/in-IN.json", "locale-in-IN"],
-          "in-IN.json": ["static/locales/in-IN.json", "locale-in-IN"],
-          "./it-IT": ["static/locales/it-IT.json", "locale-it-IT"],
-          "it-IT.json": ["static/locales/it-IT.json", "locale-it-IT"],
-          "./ja-JP": ["static/locales/ja-JP.json", "locale-ja-JP"],
-          "ja-JP.json": ["static/locales/ja-JP.json", "locale-ja-JP"],
-          "./ko-KR": ["static/locales/ko-KR.json", "locale-ko-KR"],
-          "ko-KR.json": ["static/locales/ko-KR.json", "locale-ko-KR"],
-          "./ms-MY": ["static/locales/ms-MY.json", "locale-ms-MY"],
-          "ms-MY.json": ["static/locales/ms-MY.json", "locale-ms-MY"],
-          "./nl-NL": ["static/locales/nl-NL.json", "locale-nl-NL"],
-          "nl-NL.json": ["static/locales/nl-NL.json", "locale-nl-NL"],
-          "./ph-PH": ["static/locales/ph-PH.json", "locale-ph-PH"],
-          "ph-PH.json": ["static/locales/ph-PH.json", "locale-ph-PH"],
-          "./pl-PL": ["static/locales/pl-PL.json", "locale-pl-PL"],
-          "pl-PL.json": ["static/locales/pl-PL.json", "locale-pl-PL"],
-          "./pt-PT": ["static/locales/pt-PT.json", "locale-pt-PT"],
-          "pt-PT.json": ["static/locales/pt-PT.json", "locale-pt-PT"],
-          "./ru-RU": ["static/locales/ru-RU.json", "locale-ru-RU"],
-          "ru-RU.json": ["static/locales/ru-RU.json", "locale-ru-RU"],
-          "./th-TH": ["static/locales/th-TH.json", "locale-th-TH"],
-          "th-TH.json": ["static/locales/th-TH.json", "locale-th-TH"],
-          "./tr-TR": ["static/locales/tr-TR.json", "locale-tr-TR"],
-          "tr-TR.json": ["static/locales/tr-TR.json", "locale-tr-TR"],
-          "./ua-UA": ["static/locales/ua-UA.json", "locale-ua-UA"],
-          "ua-UA.json": ["static/locales/ua-UA.json", "locale-ua-UA"],
-          "./vn-VN": ["static/locales/vn-VN.json", "locale-vn-VN"],
-          "vn-VN.json": ["static/locales/vn-VN.json", "locale-vn-VN"],
-          "./zh-TW": ["static/locales/zh-TW.json", "locale-zh-TW"],
-          "zh-TW.json": ["static/locales/zh-TW.json", "locale-zh-TW"],
         };
         function webpackAsyncContext(req) {
           if (!__webpack_require__.o(map, req)) {
