@@ -5643,7 +5643,6 @@
                 {
                   staticClass: "columns",
                   staticStyle: {
-                    "padding-left": "60px",
                     "padding-top": "60px",
                     "padding-bottom": "0",
                     "text-align": "center",
